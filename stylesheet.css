@@ -1,7 +1,8 @@
 body {
     background-color: lightgrey;
 }
- 
+
+/* use CSS selector to apply style(s) to at least one HTML tag */
 h1 {
     color: green;
 }
@@ -16,10 +17,16 @@ h3 {
     font-family: sans-serif;
 }
  
+/* styled class */
 .content {
     text-align: justify;
     font-family: sans-serif;
     margin-left: 35px;
     margin-right: 35px;
     color: Tomato;
+}
+
+#title {
+    background-color: lightblue;
+    padding: 10px;
 }

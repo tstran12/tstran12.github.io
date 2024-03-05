@@ -33,5 +33,5 @@ h3 {
 
 /* change color of <a> when you hover cursor over it */
 .link:hover{
-    color: pink;
+    color: pink !important;
 }

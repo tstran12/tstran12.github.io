@@ -18,7 +18,13 @@ h3 {
 }
  
 /* styled class */
+/* changed box model property of class */
 .content {
+    width: 300px;
+    background-color: lightblue;
+    border: 15px solid green;
+    padding: 10px;
+    margin: 20px;
     text-align: justify;
     font-family: sans-serif;
     margin-left: 35px;
@@ -26,9 +32,13 @@ h3 {
     color: Tomato;
 }
 /* styled id */
+/* changed box model property of id */
 #title {
+    width: 300px;
     background-color: lightblue;
+    border: 15px solid green;
     padding: 10px;
+    margin: 20px;
 }
 
 /* change color of <a> when you hover cursor over it */

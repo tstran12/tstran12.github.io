@@ -1,1 +1,18 @@
-/* style at least one html tag */
+body {
+    background-color: lightgrey;
+}
+.cat {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Style the element with the id "title" */
+#title {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px;
+}

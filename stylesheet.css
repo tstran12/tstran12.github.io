@@ -5,11 +5,11 @@ body {
 /* use CSS selector to apply style(s) to at least one HTML tag */
 /* changed box model property of tag */
 h1 {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-    color: green;
+    width: 300px !important;
+    border: 15px solid green !important;
+    padding: 50px !important;
+    margin: 20px !important;
+    color: green !important;
 }
  
 h3 {
@@ -19,12 +19,12 @@ h3 {
 h1,
 /* changed box model property of tag */
 h3 {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-    text-align: center;
-    font-family: sans-serif;
+    width: 300px !important;
+    border: 15px solid green !important;
+    padding: 50px !important;
+    margin: 20px !important;
+    text-align: center !important;
+    font-family: sans-serif !important;
 }
  
 /* styled class */
